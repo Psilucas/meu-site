@@ -1,5 +1,9 @@
-body{color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap');
+
+body{
+    color: aliceblue;
     background-color: black;
+    font-family: 'Lexend Peta', sans-serif;
 }
 table, tr, td, th{
     border-style: solid;
@@ -13,6 +17,36 @@ div.tabela{
 }
 div#sobre{
     background-color: rgb(50, 96, 26);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lexend Peta', sans-serif;
     font-size: small;
+}
+:root{
+    --color-1:#f9f9f9;
+    --color-2:#cac9ce;
+    --colo-3:#716d75;
+    --color-4:#151729;
+    --color-5:#000000;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.color1{color:#757ca4}
+.color2{color:#525874}
+.color3{color:#323649}
+.color4{color:#161822}
+.color5{color:#000000}
+
+body{
+    background-color: var(--color-1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+table, th, td, tr{
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
 }
