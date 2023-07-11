@@ -1,0 +1,26 @@
+:root{
+    --cor-base:#cab;
+    --cor-principa:var(--cor-base);
+}
+body{
+    background-color: var(--cor-principa);
+    /* color: ; */
+}
+.flex{
+    columns: 3;
+}
+.quadrado{
+    width: 75px;
+    height: 75px;
+    border-radius: 30%;
+    border: solid;
+}
+.cor1{
+    background-color: black;
+}
+.cor2{
+    background-color: gray;
+}
+.cor3{
+    background-color: rgb(255, 255, 255) ;
+}

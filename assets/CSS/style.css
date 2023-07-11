@@ -50,3 +50,7 @@ table, th, td, tr{
 h1{
     text-align: center;
 }
+
+.produto{
+    display: flex;
+}
