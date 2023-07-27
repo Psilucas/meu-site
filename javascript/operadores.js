@@ -28,3 +28,28 @@ console.log(numeroDois === numeroString)
 // !  NÃO
 
 console.log(!(numeroDois === numeroString))
+
+//autoincremento
+let a = 0;
+
+a = a = + 1;
+console.log(a);
+
+a++;
+console.log(a);
+
+++a;
+console.log(a);
+
+let b = 10;
+
+console.log(b--);
+
+console.log(--b);
+
+//aritméticos de atribuição
+let c = 0;
+c = c + 5;
+console.log(c);
+c += 5;
+console.log(c);
